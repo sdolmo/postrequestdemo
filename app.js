@@ -3,7 +3,6 @@ var app = express();
 var bodyParser = require("body-parser");
 
 app.use(bodyParser.urlencoded({extended: true})); //Reserch what urlencoded does in docs and what {extended: true} means
-
 app.set("view engine", "ejs");
 
 var friendsArray = ["Alisha", "Samantha", "H", "Erin", "Sebastian", "Alicia"];
